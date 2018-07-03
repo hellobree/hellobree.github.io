@@ -1,0 +1,68 @@
+@import "typography";
+
+#wrapper{
+    margin-top: 5%;
+}
+
+header{
+     h1{
+    text-transform: uppercase;
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #707070;
+}
+    h4{
+        color: #595758;
+        opacity: .4;
+        font-size: 2.5em;
+    }
+};
+#projectBox{
+    width: 400px;
+    height: 260px;
+    margin-top: 60px;
+    background-color: $powderBlu;
+    position: relative;
+
+    .projectTxt{
+        text-align: center;
+        padding-top: 25%;
+        a{
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-decoration: none;
+        }
+
+    }
+    &:hover{
+        background-color: #707070;
+        opacity: .5;
+    }
+};
+
+#socialBar{
+    margin: 200px 0 0 0;
+    ul{
+        li{
+            padding-right: 50px;
+            font-size: 2em;
+            a{
+                color: $powderBlu;
+                &:hover{
+                    color: #707070;
+                }
+            }
+        }
+    }
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    opacity: .65;
+    color: #707070;
+    
+}

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Lilita+One");
+body {
+  font-family: 'Montserrat' , sans-serif; }
+
+header {
+  background: #087E8B;
+  /* fallback for old browsers */
+  padding: 75px 0; }
+  header a {
+    color: #fff; }
+  header nav {
+    background-color: #087E8B;
+    height: 100px; }
+    header nav .navbar-nav, header nav .navbar-brand {
+      margin: 0px 75px; }
+    header nav a.navbar-brand {
+      font-weight: 600; }
+    header nav a {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: .85em; }
+      header nav a:hover {
+        color: #FFBA49; }
+    header nav li {
+      padding: 0 30px; }
+  header #heading {
+    margin-top: 150px; }
+    header #heading #headImg {
+      background-image: url(img/headImg.png);
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 125%;
+      margin-left: -75px; }
+    header #heading h1 {
+      font-family: "Lilita One", cursive;
+      text-transform: uppercase;
+      font-size: 55px;
+      letter-spacing: 3px;
+      line-height: 1.6em;
+      color: #fff; }
+    header #heading #contactBtn {
+      margin: 50px 0px;
+      border-radius: 30px;
+      background-color: transparent;
+      padding: 12px 37px;
+      border: 3px solid #fff; }
+      header #heading #contactBtn:hover {
+        background-color: #FFBA49;
+        border-color: #FFBA49;
+        color: #FFBA49;
+        transition: ease-in-out .3s; }
+      header #heading #contactBtn a {
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        font-size: 16px; }
+        header #heading #contactBtn a:hover {
+          color: #FFF; }
+
+#services {
+  margin: 125px 0 0 0; }
+  #services .section-title {
+    margin: 0; }
+  #services .section-title h2 {
+    font-family: "Lilita One", cursive;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 20px;
+    line-height: 110px; }
+  #services hr {
+    border-top: 8px solid #FFBA49;
+    width: 100px;
+    margin-left: 0px; }
+  #services .aboutInfo {
+    margin-bottom: 50px; }
+  #services .aboutImg {
+    font-size: 50px; }
+  #services .aboutTxt {
+    line-height: 30px;
+    font-size: 15px;
+    margin-left: -16px; }
+    #services .aboutTxt h4 {
+      padding-bottom: 10px;
+      font-weight: 600; }
+
+#work {
+  background-color: #F4F5F9;
+  padding: 125px 0 150px 0; }
+  #work .section-title {
+    margin: 0; }
+  #work .section-title h2 {
+    font-family: "Lilita One", cursive;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 20px;
+    line-height: 110px; }
+  #work hr {
+    border-top: 8px solid #FFBA49;
+    width: 100px;
+    margin-left: 0px; }
+
+#workCarousel {
+  margin: 0 -150px 0 200px;
+  height: 400px; }
+  #workCarousel .carousel-indicators li {
+    top: 75px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-left: 5px; }
+  #workCarousel .carousel-indicators .active {
+    background-color: #FFBA49; }
+
+#tagline {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 100px 0; }
+  #tagline h3 {
+    font-family: "Lilita One", cursive;
+    font-size: 50px;
+    letter-spacing: 15px; }
+  #tagline hr {
+    border: 3px solid #FFBA49;
+    width: 125px; }
+
+#routine {
+  height: 100%; }
+  #routine #photo1 {
+    background-image: url(https://picsum.photos/505/?random);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    margin: 0px; }
+  #routine #photo2 {
+    background-image: url(https://picsum.photos/504/?random);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    margin: 0px; }
+  #routine #photo3 {
+    background-image: url(https://picsum.photos/501/?random);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    margin: 0px; }
+  #routine #photo4 {
+    background-image: url(https://picsum.photos/508/?random);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 0px;
+    margin: 0px; }
+
+footer {
+  background-color: #087E8B;
+  color: #fff;
+  padding: 50px 0; }
+  footer .information h3 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 27px;
+    margin-bottom: 10px; }
+  footer .footTag {
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: .8; }
+  footer .socialBar ul {
+    text-decoration: none;
+    list-style: none; }
+    footer .socialBar ul li {
+      display: inline;
+      padding-right: 25px; }
+      footer .socialBar ul li a {
+        color: #fff;
+        font-size: 25px;
+        opacity: .4; }
+        footer .socialBar ul li a :hover {
+          color: #FFBA49;
+          opacity: 1 !important; }
+  footer .contact-btn {
+    padding: 40px 175px; }
+    footer .contact-btn button {
+      border-radius: 30px;
+      background-color: #FFBA49;
+      padding: 8px 25px;
+      letter-spacing: 2px; }
+      footer .contact-btn button:hover {
+        border: 2px solid #fff;
+        background-color: transparent; }
+      footer .contact-btn button a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none; }
+        footer .contact-btn button a:hover {
+          color: #FFBA49; }
+
+/*# sourceMappingURL=style.css.map */
