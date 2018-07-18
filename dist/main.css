@@ -15,26 +15,36 @@ header h4 {
   opacity: .4;
   font-size: 2.5em; }
 
-#projectBox {
-  width: 400px;
+#projectBox, #projectBox2, #projectBox3 {
   height: 260px;
   margin-top: 60px;
   background-color: #AEE5D8;
   position: relative; }
-  #projectBox .projectTxt {
+  #projectBox .projectTxt,
+  #projectBox2 .projectTxt,
+  #projectBox3 .projectTxt {
     text-align: center;
     padding-top: 25%; }
-    #projectBox .projectTxt a {
+    #projectBox .projectTxt a,
+    #projectBox2 .projectTxt a,
+    #projectBox3 .projectTxt a{
       color: #fff;
       text-transform: uppercase;
       font-size: 25px;
       font-weight: 600;
       letter-spacing: 3px;
       text-decoration: none; }
-  #projectBox:hover {
+  #projectBox:hover,
+  #projectBox2:hover,
+  #projectBox3:hover {
     background-color: #707070;
     opacity: .5; }
-
+#projectBox2{
+  background-color: #C4B7CB;
+}
+#projectBox3{
+  background-color: #EDBBB4;
+}
 #socialBar {
   margin: 200px 0 0 0; }
   #socialBar ul li {
